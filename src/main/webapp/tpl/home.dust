@@ -1,0 +1,5 @@
+<div id="home_body">
+    <button type="button" id="myButton" class="btn">
+        home
+    </button>
+</div>

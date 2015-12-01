@@ -1,0 +1,5 @@
+<div id="plans_body">
+    <button type="button" id="myButton" class="btn btn-primary">
+        plans
+    </button>
+</div>
