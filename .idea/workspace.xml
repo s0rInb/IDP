@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/ru/pflb/idp/controller/AppController.java" line="16" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ccffdd8-d09d-447c-8a1e-864388b3fe68" name="Default" comment="">
+    <list default="true" id="0ccffdd8-d09d-447c-8a1e-864388b3fe68" name="Default" comment="change all">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringHibernateExample.iws" />
@@ -82,17 +82,37 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-81.73077">
               <caret line="143" column="44" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpringHibernateExample.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringHibernateExample.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IDP.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IDP.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/pflb/idp/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61928934">
+            <state vertical-scroll-proportion="0.0">
               <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -922,6 +942,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0ccffdd8-d09d-447c-8a1e-864388b3fe68" name="Default" comment="" />
+      <changelist id="" name="New changelist" comment="" />
       <created>1449059109828</created>
       <option name="number" value="Default" />
       <updated>1449059109828</updated>
@@ -933,7 +954,7 @@
       <workItem from="1449497383540" duration="7124000" />
       <workItem from="1449560391195" duration="19259000" />
       <workItem from="1449584976254" duration="2859000" />
-      <workItem from="1449588237510" duration="165000" />
+      <workItem from="1449588237510" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="change all">
       <created>1449588280488</created>
@@ -953,11 +974,23 @@
       <option name="project" value="LOCAL" />
       <updated>1449588393770</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change all">
+      <created>1449588406045</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1449588406045</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New changelist">
+      <created>1449588536872</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1449588536872</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64276000" />
+    <option name="totallyTimeSpent" value="64479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1045,7 +1078,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change all" />
-    <option name="LAST_COMMIT_MESSAGE" value="change all" />
+    <MESSAGE value="New changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1178,6 +1212,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2816691">
           <caret line="1556" column="8" selection-start-line="1556" selection-start-column="8" selection-end-line="1556" selection-end-column="8" />
+          <folding>
+            <marker date="1449471264000" expanded="true" signature="114940:114965" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1299,6 +1336,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="2" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#868#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1412,14 +1452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="143" column="44" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/pflb/idp/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1438,11 +1470,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/pflb/idp/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61928934">
+        <state vertical-scroll-proportion="0.0">
           <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-81.73077">
+          <caret line="143" column="44" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IDP.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringHibernateExample.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
