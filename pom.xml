@@ -101,11 +101,6 @@
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>${hibernate.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>${hibernate.version}</version>
-		</dependency>
 
 		<dependency>
 			<groupId>commons-fileupload</groupId>
@@ -208,6 +203,7 @@
 		
 	</dependencies>
 
+
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -217,13 +213,58 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>SpringHibernateExample</warName>
+						<warName>IDP</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.tomcat.maven</groupId>
+					<artifactId>tomcat7-maven-plugin</artifactId>
+					<version>2.2</version>
+					<configuration>
+						<port>8080</port>
+						<path>/</path>
+						<uriEncoding>utf-8</uriEncoding>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
 		<finalName>IDP</finalName>
 	</build>
+	<profiles>
+		<profile>
+			<id>local-debug</id>
+			<properties>
+				<IDP.storage.path>test_env</IDP.storage.path>
+				<IDP.domain.url>http://localhost:8080/</IDP.domain.url>
+			</properties>
+			<build>
+				<resources>
+					<resource>
+						<directory>src/main/resources</directory>
+						<filtering>true</filtering>
+					</resource>
+				</resources>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.tomcat.maven</groupId>
+						<artifactId>tomcat7-maven-plugin</artifactId>
+						<!--<configuration>-->
+						<!--<contextFile>${project.basedir}/src/test/resources/context.xml</contextFile>-->
+						<!--</configuration>-->
+						<executions>
+							<execution>
+								<id>deployApp</id>
+								<goals>
+									<goal>run</goal>
+								</goals>
+								<phase>package</phase>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
 </project>
 

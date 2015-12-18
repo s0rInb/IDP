@@ -1,13 +1,11 @@
 package ru.pflb.idp.model;
 
-import com.sun.istack.internal.NotNull;
+
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-/**
- * Created by Leporidae on 03.12.2015.
- */
 @Entity
 @Table(name="user")
 public class User {
